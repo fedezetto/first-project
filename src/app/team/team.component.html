@@ -1,0 +1,21 @@
+
+<div class="bg-image">
+<div class="row">
+
+
+
+<div class="card" style="width: 18rem;"*ngFor="let cards of card">
+
+    <div class="card-body">
+        <img src="{{cards.img}}" width="255" height="150">
+        <h5 *ngIf="{{cards.attiva}}">{{cards.titolo}}</h5>
+        <p>{{cards.descrizione}}</p>
+        <p>{{cards.footer}}</p>
+        <a href ={{cards.href}} class="btn btn-primary">{{cards.contatta}}</a>
+    </div>
+
+        
+
+
+        
+           

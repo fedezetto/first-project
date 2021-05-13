@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg-image {
+    
+    background-image: url('/assets/background-home.jpg');
+  
+    
+    height: 100%;
+    
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card{
+      background-color: transparent;
+
+  }
+
+  .btn:hover{
+    background-color: teal;
+    
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+      }
+    
+
+  .list-group-item{
+    background-color: transparent;
+
+    font-weight: bold;
+
+    
+  }
+
+  .list-group-item:hover{
+background-color: teal;
+
+-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+  }

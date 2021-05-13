@@ -1,0 +1,20 @@
+.form-check-label {
+
+    font-weight: bold;
+
+    
+}
+
+
+.bg-image {
+    
+    background-image: url('/assets/contatti.jpg');
+  
+    height: 100%;
+    
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+  }
