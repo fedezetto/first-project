@@ -5,7 +5,7 @@ import { FirstProjectComponent } from './first-project/first-project.component';
 import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 
-const routes: Routes = [{path:"", redirectTo: "firstProject/home",pathMatch:"full"},
+const routes: Routes = [{ path: "", redirectTo: "firstProject/home", pathMatch: "full" },
 {
   path: "firstProject", component: FirstProjectComponent,
   children: [

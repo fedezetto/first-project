@@ -10,18 +10,20 @@ import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './home/home.component';
 import { FirstProjectComponent } from './first-project/first-project.component';
+import { UppercasePipe } from './pipes/uppercase.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    
+
     FooterComponent,
-         NavbarComponent,
-         ContactComponent,
-         TeamComponent,
-         HomeComponent,
-         FirstProjectComponent,
+    NavbarComponent,
+    ContactComponent,
+    TeamComponent,
+    HomeComponent,
+    FirstProjectComponent,
+    UppercasePipe,
   ],
   imports: [
     BrowserModule,

@@ -1,20 +1,22 @@
 
 <div class="bg-image">
+    
 <div class="row">
 
 
 
-<div class="card" style="width: 18rem;"*ngFor="let cards of card">
+<div  class="card" style="width: 18rem;"*ngFor="let cards of card">
 
-    <div class="card-body">
-        <img src="{{cards.img}}" width="255" height="150">
-        <h5 *ngIf="{{cards.attiva}}">{{cards.titolo}}</h5>
-        <p>{{cards.descrizione}}</p>
-        <p>{{cards.footer}}</p>
+    <div class="card-body">    
+         <img src="{{cards.img}}" width="255" height="150">
+        <h5>{{cards.titolo}}</h5>
+        <p>{{cards.descrizione|uppercase}}</p>
+        <p *ngIf="cards.attiva" [ngStyle]="{'background-color':'red'}" >{{cards.footer|uppercase}}</p>
         <a href ={{cards.href}} class="btn btn-primary">{{cards.contatta}}</a>
     </div>
+</div>
+</div>
 
-        
 
 
         
