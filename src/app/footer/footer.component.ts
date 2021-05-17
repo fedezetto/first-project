@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+
+titolo= 22
+
+
+
+
   constructor() { }
 
   ngOnInit(): void {

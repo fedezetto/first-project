@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-first-project',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-project.component.css']
 })
 export class FirstProjectComponent implements OnInit {
+
+
+  @Input() stringa = "ciao" 
+
+
 
   constructor() { }
 

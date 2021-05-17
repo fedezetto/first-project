@@ -10,7 +10,10 @@ import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './home/home.component';
 import { FirstProjectComponent } from './first-project/first-project.component';
-import { UppercasePipe } from './pipes/uppercase.pipe';
+import { PrimapipePipe } from './pipes/primapipe.pipe';
+import { NumeropipePipe } from './pipes/numeropipe.pipe';
+import { UpperCasePipe } from '@angular/common';
+
 
 
 @NgModule({
@@ -23,13 +26,15 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
     TeamComponent,
     HomeComponent,
     FirstProjectComponent,
-    UppercasePipe,
+    PrimapipePipe,
+    NumeropipePipe,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UpperCasePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
