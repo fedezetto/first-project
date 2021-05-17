@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+
+  @Input() stringo ="ciao";
+
+  @Output() cane = new EventEmitter();
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+funzione (args) {
+
+  this.cane.emit(args)
+
+ }
+
 
 }

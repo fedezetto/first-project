@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-first-project',
@@ -8,13 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 export class FirstProjectComponent implements OnInit {
 
 
-  @Input() stringa = "ciao" 
-
+  vaso = "ciao";
 
 
   constructor() { }
 
   ngOnInit(): void {
   }
+secondaFunzione (parametro)  {
 
+alert(parametro)
+
+}
 }
