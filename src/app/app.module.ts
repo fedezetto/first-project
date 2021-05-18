@@ -13,6 +13,7 @@ import { FirstProjectComponent } from './first-project/first-project.component';
 import { PrimapipePipe } from './pipes/primapipe.pipe';
 import { NumeropipePipe } from './pipes/numeropipe.pipe';
 import { UpperCasePipe } from '@angular/common';
+import { TerzaPipe } from './pipes/terza.pipe';
 
 
 
@@ -28,6 +29,7 @@ import { UpperCasePipe } from '@angular/common';
     FirstProjectComponent,
     PrimapipePipe,
     NumeropipePipe,
+    TerzaPipe,
     
   ],
   imports: [
